@@ -1,0 +1,15 @@
+{
+  "sqlLite": {
+    "name": "sqlLite",
+    "localStorage": "media-lib",
+    "file": "",
+    "connector": "memory"
+  },
+  "localFile": {
+    "name": "localFile",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "C:\\work\\upwork\\tmp\\storage",
+    "nameConflict": "makeUnique"
+  }
+}

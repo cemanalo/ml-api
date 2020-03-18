@@ -1,0 +1,32 @@
+{
+  "name": "media_lib",
+  "plural": "media_libs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "parent_id": {
+      "type": "string",
+      "required": true,
+      "default": "0"
+    },
+    "is_directory": {
+      "type": "boolean",
+      "required": true
+    },
+    "file_name": {
+      "type": "string",
+      "required": true
+    },
+    "full_path": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
